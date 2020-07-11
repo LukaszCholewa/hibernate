@@ -4,7 +4,10 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
 import pl.camp.it.model.Customer;
+
+import java.util.List;
 
 public class App {
 
@@ -32,7 +35,7 @@ public class App {
         System.out.println(customer);
         System.out.println(customer2);
 
-        deleteCustomer(customer2);
+        System.out.println(getAllCustomers());
 
     }
 
@@ -66,6 +69,19 @@ public class App {
         }finally {
             session.close();
         }
+    }
+
+    public static Customer getCustomerById(int id){
+        Session session = sessionFactory.openSession();
+        Query<Customer> query = session.createQuery("FROM pl.camp.it.model.Customer WHERE id = " + id);
+        Customer customer = query.getSingleResult();
+        return customer;
+    }
+
+    public static List<Customer> getAllCustomers(){
+        Session session = sessionFactory.openSession();
+        Query<Customer> query = session.createQuery("FROM pl.camp.it.model.Customer");
+        return query.getResultList();
     }
 }
 
