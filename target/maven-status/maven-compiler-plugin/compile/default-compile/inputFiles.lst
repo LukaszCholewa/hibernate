@@ -1,5 +1,16 @@
 /Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/model/Product.java
 /Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/model/Invoice.java
 /Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/App.java
-/Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/model/Address.java
+/Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/services/ICustomerService.java
+/Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/gui/GUI.java
 /Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/model/Customer.java
+/Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/services/FakerDataService.java
+/Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/App2.java
+/Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/dao/ProductDAO.java
+/Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/dao/IProductDAO.java
+/Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/model/Address.java
+/Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/services/RandomDataService.java
+/Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/services/IRandomDataService.java
+/Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/services/CustomerService.java
+/Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/dao/ICustomerDAO.java
+/Users/lukaszcholewa/IdeaProjects/hibernate/src/main/java/pl/camp/it/dao/CustomerDAO.java

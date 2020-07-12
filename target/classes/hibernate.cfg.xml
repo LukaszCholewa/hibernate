@@ -26,9 +26,11 @@
         </property>
 
         <property name= "show_sql">true</property> <!-- komentarze w ten sposób-->
-        <property name= "hbm2ddl.auto">create</property>
+        <property name= "hbm2ddl.auto">update</property>
+
         <mapping class= "pl.camp.it.model.Customer"/>
         <mapping class= "pl.camp.it.model.Address"/>
+        <!--mapping resource= "Address.hbm.xml"/--> <!-- gdy uzywamy konfiguracji z pliku-->
         <mapping class= "pl.camp.it.model.Invoice"/>
         <mapping class= "pl.camp.it.model.Product"/>
 
